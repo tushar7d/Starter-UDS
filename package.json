@@ -1,0 +1,27 @@
+{
+  "name": "starter-uds",
+  "version": "1.0.0",
+  "description": "Starter kit for prototyping in UDS",
+  "main": "index.js",
+  "author": "tdebnath@expediagroup.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.0",
+    "styled-map": "^3.3.0",
+    "styled-system": "^5.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-styled-components": "^1.10.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development parcel src/index.html --open",
+    "build": "NODE_ENV=production parcel build dist/index.html --public-url ./"
+  }
+}
