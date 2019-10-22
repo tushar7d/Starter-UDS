@@ -37788,7 +37788,7 @@ var _styledSystem = require("styled-system");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    \n  display: flex;\n  width: 100%;\n  height: 100%;\n  align-items: center;\n  justify-content: center;\n\n\n  i {\n    font-size: ", "px !important;\n    ", "\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n    display: flex;\n    width: 100%;\n    height: 100%;\n    align-items: center;\n    justify-content: center;\n\n    i {\n      font-size: ", "px !important;\n      ", "\n    }\n  "]);
 
   _templateObject = function _templateObject() {
     return data;
