@@ -1,5 +1,7 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 /* Document
    ========================================================================== */
 
@@ -383,5 +385,6 @@
     font-style: normal;
   
   }
+ 
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */

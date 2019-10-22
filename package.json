@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-plugin-macros": "^2.6.1",
     "babel-plugin-styled-components": "^1.10.6",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
