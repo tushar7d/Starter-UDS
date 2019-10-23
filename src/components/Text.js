@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from "styled-components";
 import { typography, color, space } from "styled-system";
 
 import styledMap from "styled-map";

@@ -2,6 +2,16 @@
       "presets": [
             "env",
             "react"
+      ],
+      "plugins": [
+        [
+          "styled-components",
+          {
+           
+            "displayName": true,
+            "preprocess": false
+          }
+        ]
       ]
       
       
