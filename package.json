@@ -24,7 +24,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-    "start": "NODE_ENV=development parcel src/index.html --open",
+    "start": "NODE_ENV=development parcel src/index.html --out-dir serve/ --open  ",
     "build": "NODE_ENV=production parcel build src/index.html -d build/ --public-url ./ --no-source-maps"
   }
 }
